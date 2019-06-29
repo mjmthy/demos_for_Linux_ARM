@@ -1,6 +1,6 @@
-#demos_for_Linux_ARM
+# demos_for_Linux_ARM
 
-##Introduction
+## Introduction
 Demos targeting at Linux 4.9.x kernel and ARM platform to show    
 a. How the exceptions and faults are triggerd and handled<br/>
 b. TODO(I'll add more later)
@@ -12,7 +12,7 @@ by ARMv8.0 AARCH64 mode(later we'll also support ARMv8.0 AARCH32 mode).<br/>
 And we choose Amlogic Ampere at hand as the demo platform, which is also<br/>
 carried by MiBox.
 
-##Directory structure
+## Directory structure
 .<br/>
 +--　README.md　　　　　　 this file<br/>
 +--　exp_trigger　　　　　　　includes all exp_trigger module related files<br/>
@@ -29,8 +29,8 @@ carried by MiBox.
 |　　|　 +-- README.md<br/>
 
 ## Detail infos for each module
-###exp_trigger
-####ARMv8 AARCH64 exceptions can be triggered 
+### exp_trigger
+#### ARMv8 AARCH64 exceptions can be triggered 
 <table>
 	<tr>
 		<td rowspan="7">Synchronous <br/>
@@ -79,7 +79,7 @@ carried by MiBox.
 	</tr>
 </table>
 
-####How to run
+#### How to run
 　　The steps listed below are targeted at Amlogic Ampere platform, but I believe<br/>
 for other ARMv8 platforms running Linux kernel, only a little bit modifications<br/>
 are needed :smiley: <br/><br/>
