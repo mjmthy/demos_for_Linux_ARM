@@ -1,0 +1,8 @@
+menuconfig EXP_TRIGGER
+	bool "ARMv8 AARCH64 exception trigger"
+	depends on ARM64
+	default n
+	help
+		Provides an easy and stable way to trigger all the kinds of
+		excptions that ARMv8 AARCH64 mode supported. Hope this could be
+		a helpful reference to learn how arm64 linux handles exceptions
